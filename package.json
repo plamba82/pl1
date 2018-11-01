@@ -46,7 +46,7 @@
     "dev": "webpack-dev-server --env.env=dev --display-error-details",
     "dev:bundleanalyzer": "webpack-dev-server --env.env=dev --env.addons=bundleanalyzer",
     "prebuild": "rimraf dist",
-    "build": "cross-env NODE_ENV=production webpack -p --env.env=prod --display-error-details",
+    "start": "cross-env NODE_ENV=production webpack -p --env.env=prod --display-error-details",
     "build:bundleanalyzer": "cross-env NODE_ENV=production webpack -p --env.env=prod --env.addons=bundleanalyzer"
   },
   "eslintConfig": {
